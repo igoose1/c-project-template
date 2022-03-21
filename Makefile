@@ -6,7 +6,7 @@ WARNING=-Wall -Wextra -Werror
 FLAGS=$(WARNING) -std=c11
 MAIN=
 SRC=
-DEPS=$(MAIN) $(SRC) src/*.h
+DEPS=$(MAIN) $(SRC)
 BINARY=
 
 TEST_FLAGS=$(FLAGS) -g -O0
