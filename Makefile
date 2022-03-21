@@ -22,7 +22,7 @@ $(BINARY): $(DEPS)
 
 .PHONY: isformatted
 isformatted: $(DEPS)
-	$(CLANG-FORMAT) -dry-run -Werror $(DEPS) $(TEST_DEPS)
+	$(CLANG-FORMAT) -dry-run -Werror $(DEPS)
 
 .PHONY: format
 format: $(DEPS)
